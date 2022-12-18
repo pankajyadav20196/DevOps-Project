@@ -13,7 +13,7 @@ data "aws_ami" "ubuntu" {
 }
 
 resource "aws_instance" "dev_machine" {
-  ami = ami-0574da719dca65348
+  ami = "ami-0574da719dca65348"
   instance_type = "t2.micro"
   key_name = "euran-jenkins"
 
