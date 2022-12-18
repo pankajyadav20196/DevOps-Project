@@ -1,5 +1,5 @@
 data "aws_ami_ids" "ubuntu" {
-  owners = ["401304059906"]
+  owners = ["477287675722"]
 
 
   filter {
