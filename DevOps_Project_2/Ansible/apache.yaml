@@ -1,4 +1,4 @@
-- name: This sets up an httpd webserver
+- name: This sets up an apache2 webserver
   hosts: aws_ec2
   become: yes
   remote_user: ubuntu
